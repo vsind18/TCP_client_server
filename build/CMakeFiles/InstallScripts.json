@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/TCP_client_server/build/cmake_install.cmake",
+		"D:/TCP_client_server/build/client/cmake_install.cmake",
+		"D:/TCP_client_server/build/server/cmake_install.cmake",
+		"D:/TCP_client_server/build/networking/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
