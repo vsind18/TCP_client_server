@@ -915,10 +915,15 @@ server/CMakeFiles/server.dir/server.cpp.obj: D:/TCP_client_server/server/server.
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_list.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_map.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_multimap.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_multiset.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_relops.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_set.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tree.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_uninitialized.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_vector.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stream_iterator.h \
@@ -981,6 +986,7 @@ server/CMakeFiles/server.dir/server.cpp.obj: D:/TCP_client_server/server/server.
   C:/msys64/ucrt64/include/c++/14.2.0/limits \
   C:/msys64/ucrt64/include/c++/14.2.0/list \
   C:/msys64/ucrt64/include/c++/14.2.0/locale \
+  C:/msys64/ucrt64/include/c++/14.2.0/map \
   C:/msys64/ucrt64/include/c++/14.2.0/memory \
   C:/msys64/ucrt64/include/c++/14.2.0/mutex \
   C:/msys64/ucrt64/include/c++/14.2.0/new \
@@ -993,6 +999,7 @@ server/CMakeFiles/server.dir/server.cpp.obj: D:/TCP_client_server/server/server.
   C:/msys64/ucrt64/include/c++/14.2.0/pstl/pstl_config.h \
   C:/msys64/ucrt64/include/c++/14.2.0/ratio \
   C:/msys64/ucrt64/include/c++/14.2.0/semaphore \
+  C:/msys64/ucrt64/include/c++/14.2.0/set \
   C:/msys64/ucrt64/include/c++/14.2.0/source_location \
   C:/msys64/ucrt64/include/c++/14.2.0/span \
   C:/msys64/ucrt64/include/c++/14.2.0/sstream \
@@ -1003,6 +1010,7 @@ server/CMakeFiles/server.dir/server.cpp.obj: D:/TCP_client_server/server/server.
   C:/msys64/ucrt64/include/c++/14.2.0/string \
   C:/msys64/ucrt64/include/c++/14.2.0/string_view \
   C:/msys64/ucrt64/include/c++/14.2.0/system_error \
+  C:/msys64/ucrt64/include/c++/14.2.0/thread \
   C:/msys64/ucrt64/include/c++/14.2.0/tr1/bessel_function.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/tr1/beta_function.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/tr1/ell_integral.tcc \
@@ -1279,13 +1287,12 @@ server/CMakeFiles/server.dir/server.cpp.obj: D:/TCP_client_server/server/server.
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
-  D:/TCP_client_server/networking/include/networking/base.h
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h
 
-
-C:/Users/syvu2/Downloads/boost_1_88_0/boost/align/detail/is_alignment.hpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/version:
+
+C:/Users/syvu2/Downloads/boost_1_88_0/boost/align/detail/is_alignment.hpp:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp:
 
@@ -1875,11 +1882,15 @@ C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/detail/impl/strand_service.ipp:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/detail/impl/thread_context.ipp:
 
+C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_map.h:
+
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/detail/impl/throw_error.ipp:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/assert.hpp:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/generic/detail/endpoint.hpp:
+
+C:/msys64/ucrt64/include/c++/14.2.0/map:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h:
 
@@ -2179,11 +2190,11 @@ C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/traits/execute_member.hpp:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/impl/read_until.hpp:
 
+C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
+
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/detail/strand_executor_service.hpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/hashtable.h:
-
-C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h:
 
@@ -2433,8 +2444,6 @@ C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/traits/prefer_member.hpp:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/impl/append.hpp:
 
-C:/msys64/ucrt64/include/c++/14.2.0/vector:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/impl/as_tuple.hpp:
@@ -2482,6 +2491,8 @@ C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/impl/config.hpp:
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/impl/config.ipp:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/date_time/gregorian/greg_date.hpp:
+
+C:/msys64/ucrt64/include/c++/14.2.0/set:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/impl/connect.hpp:
 
@@ -2577,11 +2588,11 @@ C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/ip/basic_resolver_results.hpp:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/ip/detail/socket_option.hpp:
 
+C:/msys64/ucrt64/include/c++/14.2.0/variant:
+
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/date_time/time_iterator.hpp:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/mpl/if.hpp:
-
-C:/msys64/ucrt64/include/c++/14.2.0/variant:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/ip/host_name.hpp:
 
@@ -2633,6 +2644,8 @@ C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/ip/tcp.hpp:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/ip/unicast.hpp:
 
+C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_multimap.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/string_view:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/is_applicable_property.hpp:
@@ -2664,10 +2677,6 @@ C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/local/stream_protocol.hpp:
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/multiple_exceptions.hpp:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/packaged_task.hpp:
-
-C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/messages_members.h:
-
-C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/read_at.hpp:
 
@@ -3017,6 +3026,8 @@ C:/Users/syvu2/Downloads/boost_1_88_0/boost/mpl/void.hpp:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/mpl/void_fwd.hpp:
 
+C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_multiset.h:
+
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/numeric/conversion/bounds.hpp:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/numeric/conversion/cast.hpp:
@@ -3233,6 +3244,8 @@ C:/msys64/ucrt64/include/excpt.h:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/system/detail/system_category_message.hpp:
 
+C:/msys64/ucrt64/include/c++/14.2.0/thread:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h:
 
 C:/Users/syvu2/Downloads/boost_1_88_0/boost/system/detail/system_category_message_win32.hpp:
@@ -3419,6 +3432,10 @@ C:/msys64/ucrt64/include/unistd.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h:
 
+C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_set.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tree.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_uninitialized.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stream_iterator.h:
@@ -3528,6 +3545,12 @@ C:/msys64/ucrt64/include/c++/14.2.0/typeinfo:
 C:/msys64/ucrt64/include/c++/14.2.0/unordered_map:
 
 C:/msys64/ucrt64/include/c++/14.2.0/utility:
+
+C:/msys64/ucrt64/include/c++/14.2.0/vector:
+
+C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/messages_members.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h:
 
@@ -3840,5 +3863,3 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h:
-
-D:/TCP_client_server/networking/include/networking/base.h:
