@@ -144,7 +144,28 @@ client/CMakeFiles/client.dir/client.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/istream \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc \
- D:/TCP_client_server/networking/include/networking/base.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/thread \
+ C:/msys64/ucrt64/include/c++/14.2.0/stop_token \
+ C:/msys64/ucrt64/include/c++/14.2.0/atomic \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_base.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_wait.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/cstdint \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/std_mutex.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/std_thread.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/unique_ptr.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/semaphore \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/semaphore_base.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/chrono.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/ratio \
+ C:/msys64/ucrt64/include/c++/14.2.0/limits \
+ C:/msys64/ucrt64/include/c++/14.2.0/ctime \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/parse_numbers.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_timed_wait.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/this_thread_sleep.h \
+ C:/msys64/ucrt64/include/semaphore.h \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio.hpp \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/any_completion_executor.hpp \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/detail/config.hpp \
@@ -179,14 +200,6 @@ client/CMakeFiles/client.dir/client.cpp.obj: \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/assert.hpp \
  C:/msys64/ucrt64/include/assert.h \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/detail/atomic_count.hpp \
- C:/msys64/ucrt64/include/c++/14.2.0/atomic \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_base.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
- C:/msys64/ucrt64/include/stdint.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_wait.h \
- C:/msys64/ucrt64/include/c++/14.2.0/cstdint \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/std_mutex.h \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/detail/cstddef.hpp \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/detail/executor_function.hpp \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/detail/handler_alloc_helpers.hpp \
@@ -196,7 +209,6 @@ client/CMakeFiles/client.dir/client.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_uninitialized.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/align.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/unique_ptr.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr_base.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/allocated_ptr.h \
@@ -514,11 +526,6 @@ client/CMakeFiles/client.dir/client.cpp.obj: \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/system/detail/std_category_impl.hpp \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/system/detail/mutex.hpp \
  C:/msys64/ucrt64/include/c++/14.2.0/mutex \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/chrono.h \
- C:/msys64/ucrt64/include/c++/14.2.0/ratio \
- C:/msys64/ucrt64/include/c++/14.2.0/limits \
- C:/msys64/ucrt64/include/c++/14.2.0/ctime \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/parse_numbers.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/unique_lock.h \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/system/error_condition.hpp \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/system/errc.hpp \
@@ -1184,13 +1191,6 @@ client/CMakeFiles/client.dir/client.cpp.obj: \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/detail/future.hpp \
  C:/msys64/ucrt64/include/c++/14.2.0/future \
  C:/msys64/ucrt64/include/c++/14.2.0/condition_variable \
- C:/msys64/ucrt64/include/c++/14.2.0/stop_token \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/std_thread.h \
- C:/msys64/ucrt64/include/c++/14.2.0/semaphore \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/semaphore_base.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_timed_wait.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/this_thread_sleep.h \
- C:/msys64/ucrt64/include/semaphore.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_futex.h \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/placeholders.hpp \
  C:/Users/syvu2/Downloads/boost_1_88_0/boost/asio/posix/basic_descriptor.hpp \
