@@ -49,7 +49,7 @@ void handle_client(std::shared_ptr<tcp::socket> socket){
             boost::asio::streambuf msg_buf;
             boost::asio::read_until(*socket, msg_buf, "\n");
 
-            broadcast("Type: ", socket);
+            // broadcast("Type: ", socket);
 
             std::istream is(&msg_buf);
             std::string msg;

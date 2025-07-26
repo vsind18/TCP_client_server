@@ -38,7 +38,7 @@ int main(){
 
         while (true){
             std::string msg;
-            std::cout << "Chat: ";
+            // std::cout << "Chat: ";
             std::getline(std::cin, msg);
             boost::asio::write(socket, boost::asio::buffer(msg + "\n"));
         }
